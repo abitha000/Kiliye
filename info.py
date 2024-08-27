@@ -56,7 +56,7 @@ else:
     LOG_CHANNEL = int(LOG_CHANNEL)
 
 # support group
-SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-1002192455941')
+SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-1001546795887')
 if len(SUPPORT_GROUP) == 0:
     print('Error - SUPPORT_GROUP is missing, exiting now')
     exit()
@@ -72,8 +72,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/HA_Bots_Support')
-OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/Hansaka_Anuhas")
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/universe_we_are')
+OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/Quin_sarah")
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/HA_Bots')
 FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/HA_Films_World')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/HA_Bots")
@@ -95,7 +95,7 @@ INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTE
 PM_FILE_DELETE_TIME = int(environ.get('PM_FILE_DELETE_TIME', '3600'))
 
 # boolean settings
-IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', False)
+IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', True)
 IS_VERIFY = is_enabled('IS_VERIFY', False)
 AUTO_DELETE = is_enabled('AUTO_DELETE', False)
 WELCOME = is_enabled('WELCOME', False)
@@ -113,13 +113,13 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'sampleupi@upi')
 
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', True)
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002237503909")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002178415640")
 if len(BIN_CHANNEL) == 0:
     print('Error - BIN_CHANNEL is missing, exiting now')
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "https://t.me/+QFN7EutjYjE4ZDdl")
+URL = environ.get("URL", "https://t.me/+CCmc9nVd8JViNTNl")
 if len(URL) == 0:
     print('Error - URL is missing, exiting now')
     exit()
